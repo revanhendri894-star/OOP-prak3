@@ -10,8 +10,8 @@ package TugasP3;
  */
 public class Main {
        public static void main(String[] args) {
-        Mobil Keluarga = new Mobil("Toyota","Kijang Innova", 2012);
-        Mobil Super = new Mobil("Aston Martin","Valhalla", 2026);
+        Mobil Keluarga = new Mobil("Toyota","Kijang Innova", 2012, "Putih");
+        Mobil Super = new Mobil("Aston Martin","Valhalla", 2026, "Hitam");
         
         Keluarga.displayInfo();
         
