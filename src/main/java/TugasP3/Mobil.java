@@ -12,11 +12,13 @@ public class Mobil {
     private String Merk;
     private String Model;
     private int Tahun;
+    private String Warna;
     
-    public Mobil(String Merk, String Model, int Tahun) {
+    public Mobil(String Merk, String Model, int Tahun, String Warna) {
         this.Merk = Merk;
         this.Model = Model;
         this.Tahun = Tahun;
+        this.Warna = Warna;
     }
     public String getMerk() {
         return Merk;
@@ -36,12 +38,19 @@ public class Mobil {
     public void setTahun(int Tahun) {
         this.Tahun = Tahun;
     }
+    public String getWarna() {
+        return Warna;
+    }
+    public void setWarna(String Warna) {
+        this.Warna =Warna;
+    }
     //Method
     void displayInfo() {
         System.out.println("------------Info Mobil------------");
         System.out.println("Merk :" + Merk);
         System.out.println("Model : " + Model);
         System.out.println("Tahun : " + Tahun);
+        System.out.println("Warna : " + Warna);
         System.out.println("==================================");
     }
     void startEngine() {
